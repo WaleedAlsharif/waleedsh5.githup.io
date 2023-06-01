@@ -658,12 +658,13 @@ header .navbar ul li a:hover {
   margin: 2rem;
 }
 .work .box-container .box {
-  flex: 1 1 30rem;
+  flex: 1 1 40rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
   height: 30rem;
+  max-width: 50rem;
 }
 .work .box-container .box img {
   height: 100%;
@@ -1223,3 +1224,9 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+
+/* .box.tilt{
+  max-width: 30%;
+  width: 40% !important;
+} */
